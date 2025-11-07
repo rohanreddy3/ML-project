@@ -1,4 +1,4 @@
-# src/evaluate.py
+
 import numpy as np
 
 def precision_at_k(pred, true, k=5):
