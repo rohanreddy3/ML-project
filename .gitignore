@@ -1,7 +1,8 @@
-﻿# ignore large and local files
+﻿# ignore large local data and models
 data/
 models/
-results/
 venv/
 *.joblib
+*.zip
 *.csv
+*.pkl
