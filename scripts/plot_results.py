@@ -1,9 +1,7 @@
-# scripts/plot_results.py
 import pandas as pd
 import matplotlib.pyplot as plt
 df = pd.read_csv('results/dataset1_results/tagging_split_results.csv')
 
-# example: plot F1 vs K for each model & split
 for model, g in df.groupby('model'):
     plt.figure(figsize=(6,4))
     for split, sub in g.groupby('split'):

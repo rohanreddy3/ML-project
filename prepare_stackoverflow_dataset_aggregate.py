@@ -1,4 +1,3 @@
-# prepare_stackoverflow_dataset_aggregate.py
 import pandas as pd, os, json
 
 QUESTIONS = "data/raw/Questions.csv"
